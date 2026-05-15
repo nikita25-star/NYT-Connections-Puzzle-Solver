@@ -8,7 +8,6 @@ Now that you’ve traversed the island, it’s time to get to know it better! An
 1. Why does our scoring system work? What does it account for, and what doesn’t it account for? What are some other scoring metrics you can think of? 
 Answer in around 3-4 sentences.
 
-
 I believe it works because lots of factors are accounted for in determining
 which words ultimately belong in which category. We have an internal similarity, 
 external similarity, and ambiguity penalty calculations that account for how similar
@@ -18,11 +17,9 @@ might not be accounted for include pop culture references or sayings, or certain
 like this that semantic similarity simply cannot pick up on. 
 
 
-
 2. Look at the histogram that you made in Milestone 4. What can you say about the distribution of these randomly sampled quartets? 
 Why does our solution sometimes attain a higher score than Wyna’s solution when our solution is incorrect?
 
-# YOUR RESPONSE HERE
 The histogram shows the distribution of scores from random quartets formed. The solver might beat Wyna's 
 score sometimes beacuse our scoring system is not perfect and a wrong grouping can sometimes work 
 in vector space but when humans are solving the puzzle due to reasons mentioned in the previous
