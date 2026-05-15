@@ -1,0 +1,50 @@
+NAME: Nikita Iyer
+PRONOUNS: she/her
+
+Milestone 5 - Being One With The Island: Answering Your Questions About The Solver
+
+Now that you’ve traversed the island, it’s time to get to know it better! Answer the following questions in investigation.txt:
+
+1. Why does our scoring system work? What does it account for, and what doesn’t it account for? What are some other scoring metrics you can think of? 
+Answer in around 3-4 sentences.
+
+
+I believe it works because lots of factors are accounted for in determining
+which words ultimately belong in which category. We have an internal similarity, 
+external similarity, and ambiguity penalty calculations that account for how similar
+words in a group are to each other, how similar those words are to the rest of the 
+puzzle words, and how many different meanings one words can have. Some things that
+might not be accounted for include pop culture references or sayings, or certain aspects 
+like this that semantic similarity simply cannot pick up on. 
+
+
+
+2. Look at the histogram that you made in Milestone 4. What can you say about the distribution of these randomly sampled quartets? 
+Why does our solution sometimes attain a higher score than Wyna’s solution when our solution is incorrect?
+
+# YOUR RESPONSE HERE
+The histogram shows the distribution of scores from random quartets formed. The solver might beat Wyna's 
+score sometimes beacuse our scoring system is not perfect and a wrong grouping can sometimes work 
+in vector space but when humans are solving the puzzle due to reasons mentioned in the previous
+question that can flaw our solver. 
+
+
+3. In your pairwise similarity cosine graph made in Milestone 4, can you spot any red herrings for your chosen puzzle? 
+What are some unique quirks about this graph that you may notice? What do you see, or what don’t you see? Answer in around 3 sentences, 
+and, of course, more thoughts are always welcome.
+
+# YOUR RESPONSE HERE
+
+--------------------------------------------------------------------------------------------------------
+
+Now, come up with two questions about the solver that you would like to investigate and tweak in the solver. 
+Perhaps this is how the solver scores solutions or how we search for a solution! The possibilities are endless!
+
+Your first question and how you answered it:
+
+# YOUR RESPONSE HERE
+
+
+Your second question and how you answered it:
+
+# YOUR RESPONSE HERE
